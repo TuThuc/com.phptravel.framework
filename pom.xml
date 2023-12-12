@@ -22,7 +22,7 @@
         <maven.compiler.source>11</maven.compiler.source>
 
         <!-- Global variable for dependencies -->
-        <webdriver.version>4.11.0</webdriver.version>
+        <webdriver.version>4.16.1</webdriver.version>
         <testng.version>7.7.1</testng.version>
         <aspectj.version>1.9.19</aspectj.version>
         <extent.version>5.1.1</extent.version>
