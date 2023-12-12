@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [BankGuru]" verbose="0">
+  <parameter name="envName" value="local"/>
+  <parameter name="serverName" value="dev"/>
+  <listeners>
+    <listener class-name="com.phptravel.commons.MethodListener"/>
+  </listeners>
+  <test thread-count="1" name="Run on chrome (failed)" verbose="0">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.phptravel.testcases.Register">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="Register_01_RegisterWithDataEmpty"/>
+        </methods>
+      </class> <!-- com.phptravel.testcases.Register -->
+    </classes>
+  </test> <!-- Run on chrome (failed) -->
+</suite> <!-- Failed suite [BankGuru] -->
