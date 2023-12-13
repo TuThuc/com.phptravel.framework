@@ -13,7 +13,7 @@
         <methods>
           <include name="beforeClass"/>
           <include name="afterClass"/>
-          <include name="Register_01_RegisterWithDataEmpty"/>
+          <include name="Register_01_RegisterWithDataEmpty" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.phptravel.testcases.Register -->
     </classes>

@@ -1,15 +1,20 @@
 com\phptravel\commons\PageGeneratorManager.class
+com\phptravel\reportConfig\ExtentManager.class
 com\phptravel\factoryEnvironment\SaucelabFactory.class
 com\phptravel\commons\GlobalConstants.class
 com\phptravel\factoryEnvironment\BrowserstackFactory.class
+com\phptravel\PageUIs\RegisterPageUI.class
 com\phptravel\factoryBrowser\ChromeDriverManager.class
 com\phptravel\factoryBrowser\HeadlessFirefoxDriverManager.class
+com\phptravel\PageUIs\HomePageUI.class
 com\phptravel\factoryBrowser\HeadlessChromeDriverManager.class
 com\phptravel\commons\BasePage$1.class
 com\phptravel\commons\VerificationFailures.class
 com\phptravel\factoryBrowser\BrowserNotSupportException.class
+com\phptravel\reportConfig\ExtentTestListener.class
 com\phptravel\factoryEnvironment\LambdaFactory.class
 com\phptravel\commons\BasePage$2.class
+com\phptravel\ultilities\excelultils\ExcelUtil.class
 com\phptravel\factoryBrowser\EdgeDriverManager.class
 com\phptravel\factoryEnvironment\EnvironmentList.class
 com\phptravel\factoryEnvironment\LocalFactory.class
@@ -24,4 +29,5 @@ com\phptravel\factoryBrowser\BrowserList.class
 com\phptravel\factoryEnvironment\LocalFactory$1.class
 com\phptravel\commons\BaseTest$1.class
 com\phptravel\commons\MethodListener.class
+com\phptravel\pageObjects\RegisterPageObject.class
 com\phptravel\commons\BaseTest.class

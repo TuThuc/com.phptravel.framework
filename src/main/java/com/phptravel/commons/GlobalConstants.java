@@ -41,6 +41,8 @@ public static GlobalConstants getGlobalConstants() {
     //private final String browserLogs = getFolderSeparator("browserLogs") + "FirefoxLog.log";
     private final String browserLogs = projectPath + fileSeparator + "browserLogs" + fileSeparator + "FirefoxLog.log";
 
+    private final String extentReport = projectPath + fileSeparator + "extentV5" + fileSeparator + "ExtentReport.html";
+
     private final String browserStackUserName = "tuthuc1";
     private final String browserStackAutomateKey = "b6H118BpMUuq4mqJAGPo";
     private final String browserStackUrl = "https://" + browserStackUserName + ":" + browserStackAutomateKey + "@hub-cloud.browserstack.com/wd/hub";
