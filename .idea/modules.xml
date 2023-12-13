@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/com.phptravel.framework.iml" filepath="$PROJECT_DIR$/.idea/com.phptravel.framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.phptravel.framework.iml" filepath="$PROJECT_DIR$/com.phptravel.framework.iml" />
     </modules>
   </component>
 </project>
